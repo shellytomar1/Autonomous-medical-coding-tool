@@ -1,0 +1,26 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# macOS / editor
+.DS_Store
+.vscode/
+
+# Local secrets
+.env
+.env.*
+
+# Runtime outputs (optional - remove if you want to version these)
+*.csv
+*.xlsx
+
